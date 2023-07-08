@@ -54,8 +54,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: fit-content;
-    background-color: antiquewhite;
+    height: 100vh;
+    /* background-color: antiquewhite; */
+    background-image: url(/images/background.jpg), linear-gradient(45deg, #000000, #535353); 
+    background-repeat: no-repeat;
+    
 }
 .contain{
     padding: 50px;
@@ -64,6 +67,7 @@
 
 .featuretext{
     font-size: 95px;
+    color: tomato;
 }
 
 .fea-img{
@@ -71,6 +75,9 @@
 }
 .feat-img{
     height: 400px;
+}
+.sub-text-featear{
+    color: white;
 }
 button{
     margin: 20px 0;
