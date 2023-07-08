@@ -56,8 +56,13 @@
     align-items: center;
     height: 100vh;
     /* background-color: antiquewhite; */
-    background-image: url(/images/background.jpg), linear-gradient(45deg, #000000, #535353); 
+    /* background-image: url(/images/cover_background.jpg); 
+    background-color: rgba(0, 0, 0, 0.062);
     background-repeat: no-repeat;
+    background-position: center; */
+
+    /* background: linear-gradient(to top, #04b6fd85, #0740fa28), url(/images/cover_background.jpg) no-repeat bottom center; */
+    background: url(/images/cover_background.jpg) no-repeat center center;
     
 }
 .contain{
@@ -66,8 +71,9 @@
 }
 
 .featuretext{
-    font-size: 95px;
+    font-size: 55px;
     color: tomato;
+    padding: 10px 0;
 }
 
 .fea-img{
@@ -78,6 +84,11 @@
 }
 .sub-text-featear{
     color: white;
+    padding: 10px 0;
+}
+.sub-text-featear-black{
+    color: black;
+    padding: 10px 0;
 }
 button{
     margin: 20px 0;
@@ -91,4 +102,21 @@ button{
 .explore-btn:hover{
     color: tomato;
     background-color: white;
+}
+
+.title{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section{
+    background-color: gainsboro;
 }
