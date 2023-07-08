@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    background-color: gray;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1500px;
+}
+
+.logo{
+    color: white;
+}
+.menu{
+
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.list{
+    padding: 20px 20px;
+}
+.list:hover{
+    background-color: white;
+    color: gray;
+}
+.menu-link{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    padding: 30px;
+}
+.menu-link:hover{
+    color: gray;
+}
