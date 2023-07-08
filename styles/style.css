@@ -4,6 +4,7 @@
 }
 #container{
     background-color: gray;
+    /* box-shadow: 0 0 3px black; */
 }
 .navbar{
     display: flex;
@@ -19,6 +20,7 @@
 
 .logo{
     color: white;
+    cursor: pointer;
 }
 .menu{
 
@@ -45,4 +47,41 @@
 }
 .menu-link:hover{
     color: gray;
+}
+
+/* main section style here */
+.cover{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    background-color: antiquewhite;
+}
+.contain{
+    padding: 50px;
+    padding-left: 150px;
+}
+
+.featuretext{
+    font-size: 95px;
+}
+
+.fea-img{
+    padding: 95px;
+}
+.feat-img{
+    height: 400px;
+}
+button{
+    margin: 20px 0;
+    padding: 20px 40px;
+    border: 0px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: tomato;
+}
+.explore-btn:hover{
+    color: tomato;
+    background-color: white;
 }
